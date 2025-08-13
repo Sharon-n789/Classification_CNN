@@ -8,21 +8,25 @@ It trains on labeled image data, tracks performance metrics during training, and
 
 ---
 
-## Dataset Setup
+## Dataset Setup (2 ways)
+* You can directly upload it from your computer after downloading from kaggle link - https://www.kaggle.com/datasets/salader/dogs-vs-cats/data
 
-1. **Kaggle API Authentication**
+* But I have created a **token** form Kaggle and downloaded the token `json file` into **google colab** and followed the steps below:-
+<img width="955" height="636" alt="image" src="https://github.com/user-attachments/assets/678f2a14-7ab8-47c0-b23c-9b8376f53abe" />
 
-   * Create a hidden directory `.kaggle` in your home folder.
-   * Copy `kaggle.json` (Kaggle API credentials) into `.kaggle/`.
-   * Authenticate using the Kaggle API.
-2. **Dataset Download**
+   1. **Kaggle API Authentication**
 
-   * Use the Kaggle CLI to download the dataset (e.g., `owner/dataset-name`).
-   * Downloaded as `dogs-vs-cats.zip` into `/content/`.
-3. **Extraction**
+       * Create a hidden directory `.kaggle` in your home folder.
+       * Copy `kaggle.json` (Kaggle API credentials) into `.kaggle/`.
+       * Authenticate using the Kaggle API.
+  2. **Dataset Download**
 
-   * Unzip using Python’s `zipfile` module.
-   * Organize images into `/content/train/dog/` and `/content/train/cat/`.
+       * Use the Kaggle CLI to download the dataset (e.g., `owner/dataset-name`).
+       * Downloaded as `dogs-vs-cats.zip` into `/content/`.
+  3. **Extraction**
+
+       * Unzip using Python’s `zipfile` module.
+       * Organize images into `/content/train/dog/` and `/content/train/cat/`.
 
 ---
 
