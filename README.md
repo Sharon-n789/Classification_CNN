@@ -129,7 +129,3 @@ Image preprocessing is done **before feeding data to the CNN** to improve learni
 * Model performance can be improved by experimenting with architecture and hyperparameters.
 
 ---
-
-
-Do you want me to add that?
-
